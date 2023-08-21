@@ -26,13 +26,13 @@ con la action conterrà il riferimento dell'altro file
 ?>
 
 <form action="form.php" method="GET">
-    <textarea name="textarea" id="" cols="30" rows="10">
-       
-    </textarea>
+    <textarea name="textarea" cols="30" rows="10"></textarea>
     <button>
         invia
     </button>
 </form>
+
+
     
 </body>
 </html>

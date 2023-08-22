@@ -3,7 +3,7 @@
 
 <?php
 $textarea = $_GET['textarea'];
-$textAreaModificata = str_replace('ciao', '***', $textarea)
+$textAreaModificata = str_replace('ciao', '***', $textarea);
 ?>
 
 
@@ -23,5 +23,6 @@ $textAreaModificata = str_replace('ciao', '***', $textarea)
     ?>
 </h1>
 
+<textarea name="textarea" cols="30" rows="10"><?php echo $textarea?></textarea>
 
 <br>
